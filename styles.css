@@ -36,9 +36,10 @@ body{
 	/* set the font size to 1.1rem	*/
 	font-size: 1.1rem;
 	/* set the font color to #222 (--dk-gray) */
+	color: var(--dk-gray);
 	margin: 0;
 	padding: 0;
-	color: var(--dk-gray);
+	
 }
 
 header{
@@ -82,6 +83,7 @@ nav ul{
 
 nav a{
 	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
